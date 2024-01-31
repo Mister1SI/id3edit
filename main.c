@@ -24,7 +24,9 @@ int main(int argc, char** argv) {
 
 void print_help() {
 	char* help_text = 
-		"usage: id3edit <param> <file> [options]";
+		"usage: id3edit [options] <param> <file>\n"\
+		"\noptions:\n\t-i: idk\n\n"\
+		"modes:\n\tT: edit title\n\tA: edit album\n\tL: edit album\n\tC: edit comment";
 	puts(help_text);
 }
 
